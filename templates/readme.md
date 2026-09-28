@@ -7,9 +7,7 @@ This project is handcrafted. AI is used to check grammar and doing research.
 
 **Topics**
 
-## [What is software architecture?](topics/what-is-software-architecture.md)
-
-
+{{topics}}
 
 ---
 
