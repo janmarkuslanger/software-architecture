@@ -3,8 +3,11 @@ from pathlib import Path
 
 @dataclass
 class Topic:
-    path: str
+    path: Path
     title: str
+    
+def list_item(text, level):
+    return "  " * level + "- " + text
 
 def extract_headline_from_markdown_file(path: str) -> str|None:
     with open(path) as file:
@@ -29,9 +32,9 @@ def write_readme(topics: list[Topic]):
         content = file.read()
         
     topic_content = ""
-    
     for topic in topics:
-        topic_content += f"- [{topic.title}]({topic.path})\n\n"
+        level = len(str(topic.path).split("/")) - 3        
+        topic_content += list_item(f"[{topic.title}]({topic.path})\n\n", level)
     
     Path("README.md").write_text(content.replace("{{topics}}", topic_content), encoding="utf-8")    
     
