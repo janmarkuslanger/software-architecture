@@ -33,7 +33,7 @@ def write_readme(topics: list[Topic]):
         
     topic_content = ""
     for topic in topics:
-        level = len(str(topic.path).split("/")) - 3        
+        level = len(topic.path.parts) - 2        
         topic_content += list_item(f"[{topic.title}]({topic.path})\n\n", level)
     
     Path("README.md").write_text(content.replace("{{topics}}", topic_content), encoding="utf-8")    
