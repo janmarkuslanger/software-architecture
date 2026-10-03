@@ -1,5 +1,0 @@
-# [TOPIC]
-
-## Sources
-
-## Futher reading
