@@ -1,4 +1,4 @@
-# System thinking
+# Systems thinking
 
 ## Definition
 
