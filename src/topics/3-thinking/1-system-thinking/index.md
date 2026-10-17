@@ -8,7 +8,7 @@
 
 ## Skills
 
-@arnold2015 [p. 676-677] identify the following systems thinking skills:
+@arnold2015 [pp. 676--677] identify the following systems thinking skills:
 
 - Recognizing Interconnections
 - Identifying and Understanding Feedback
