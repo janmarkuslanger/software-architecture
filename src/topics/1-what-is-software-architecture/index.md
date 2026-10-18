@@ -11,7 +11,7 @@ Software architecture has no fixed definition. There are several perspectives on
 
 ## Structure oriented
 
-@bass2021 define software architecture as: 
+@bass2021 [p. 2] define software architecture as: 
 
 "The software architecture of a system is the set of structures needed to reason about
 the system. These structures comprise software elements, relations among them, and
@@ -25,7 +25,7 @@ A structure contains:
 
 ## Decision oriented
 
-@booch2006 states: "All architecture is design but not all design is architecture. Architecture represents the significant design decisions that shape a system, where significant is measured by cost of change."
+@booch2006 [para. 5] states: "All architecture is design but not all design is architecture. Architecture represents the significant design decisions that shape a system, where significant is measured by cost of change."
 
 This means that software architecture is the set of design decisions that shape a system and are costly to change.
 
@@ -39,7 +39,7 @@ Architecture is defined by:
 
 ## Pragmatic oriented
 
-@fowler2003 defined software architecture as the following: "Architecture is about the important stuff. Whatever that is".
+@fowler2003 [p. 12] defined software architecture as the following: "Architecture is about the important stuff. Whatever that is."
 
 This means software architecture is what the experienced developers think is important.
 

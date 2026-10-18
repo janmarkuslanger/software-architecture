@@ -6,6 +6,10 @@
 
 > Systems thinking is a set of synergistic analytic skills used to improve the capability of identifying and understanding systems, predicting their behaviors, and devising modifications to them in order to produce desired effects. These skills work together as a system. [@arnold2015, p. 675]
 
+## Why use systems thinking?
+
+Software architecture can be defined as a set of structures. Those structures are defined by elements, relations, and properties of both [@bass2021, p. 2]. An architect views the system as a whole [@rechtin1992, pp. 66–67]. Systems thinking helps in two ways: it helps to identify and understand the interconnections of a system, and to understand the system as a whole and predict its behavior [@arnold2015, pp. 675–676].
+
 ## Skills
 
 @arnold2015 [pp. 676--677] identify the following systems thinking skills:
