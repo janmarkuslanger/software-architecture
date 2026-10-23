@@ -1,21 +1,27 @@
 # C4
 
-The C4 model has four core diagrams: system context, container, component and code. Each of them focused on a different abstraction level [@brown2026].
+The C4 model consists of:
+
+- Four hierarchical abstractions: software systems, containers, components and code
+- Four hierarchical diagrams: system context, containers, components and code
+- Three supporting diagrams: system landscape, dynamic and deployment
+
+C4 is notation and tool agnostic.
 
 ## Abstractions
 
-**System context:**
+### Software systems
 
-A system is something that delivers value to the user and is mostly developed by one team [@brown2026]. 
+A software system is something that delivers value to its users and is mostly developed by one team [@brown2026].
 
-**Container:**
+### Containers
 
-A container is a runnable unit. It is either an application or a data store [@brown2026]. 
+A container is a runnable unit. It is either an application or a data store [@brown2026].
 
-**Component:**
+### Components
 
-A component groups related functionality inside of a container with well-defined interfaces [@brown2026]. 
+A component groups related functionality inside a container with well-defined interfaces [@brown2026].
 
-**Code:**
+### Code
 
-The codes includes the building blocks of the programming language like classes, interface or functions [@brown2026]. 
+Code consists of the building blocks of the programming language like classes, interfaces or functions [@brown2026].
