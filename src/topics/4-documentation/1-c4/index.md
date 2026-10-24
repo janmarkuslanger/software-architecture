@@ -30,10 +30,8 @@ Code consists of the building blocks of the programming language like classes, i
 
 ## System Context Diagram
 
-A system context diagram shows a software system with people and software systems interacting with it in a high-level view [@brown2026, chap. 3].
-
 ### What
-A single software system with people and software systems that interact with it [@brown2026, chap. 3]
+A system context diagram shows a single software system with people and software systems interacting with it in a high-level view [@brown2026, chap. 3].
 
 ### Audience 
 Technical and non technical people, everybody involved in the project [@brown2026, chap. 3]
@@ -71,11 +69,8 @@ C4Context
 
 ## Container Diagram
 
-A container diagram shows the containers of a single software system [@brown2026, chap. 4].
-
 ### What
-
-Containers of a single software system [@brown2026, chap. 4].
+A container diagram shows the containers of a single software system [@brown2026, chap. 4].
 
 ### Audience 
 
@@ -127,3 +122,43 @@ C4Container
 
     UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
 ```
+
+## Component diagram
+
+### What
+A component diagram shows the components of a single container in a software system [@brown2026, chap. 5].
+
+
+### Audience 
+Software architects and engineers [@brown2026, chap. 5, "Audience" section]
+
+### Content 
+
+#### People
+
+The people that surround the container in the container diagram [@brown2026, chap. 5, "People, software systems, and containers" section].
+
+#### Software Systems
+
+The software systems that surround the container in the container diagram [@brown2026, chap. 5, "People, software systems, and containers" section].
+
+#### Containers
+
+The other containers that surround the container in the container diagram [@brown2026, chap. 5, "People, software systems, and containers" section].
+
+#### Components
+
+Components are the building blocks inside the container, each labeled with a name, technology and description. A component is a group of related code. The diagram should reflect the architectural style in use, e.g. components organized in layers or in a "ports and adapters" style [@brown2026, chap. 5, "Components" section]. 
+
+#### Container boundary
+
+A box that shows the container boundary around the components [@brown2026, chap. 5, "Container boundary" section]. 
+
+#### Software system boundary (optional)
+
+A box that shows the boundary of the parent software system to make the hierarchy of elements explicit [@brown2026, chap. 5, "Software system boundary" section]. 
+
+#### Relationships
+
+The diagram should contain unidirectional arrows between the components, containers, people and outside software systems. Each arrow should be labeled with a description and where applicable the technology. Component to component relationships with method and function calls do not need technology description [@brown2026, chap. 5, "Relationships" section]. 
+
