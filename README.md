@@ -11,6 +11,8 @@ This project has a focus on evidence. Therefore every statement must have a cita
 - [What drives software architecture?](docs/topics/2-what-drives-software-architecture/index.md)
 - [Thinking](docs/topics/3-thinking/index.md)
   - [Systems thinking](docs/topics/3-thinking/1-system-thinking/index.md)
+- [Documentation](docs/topics/4-documentation/index.md)
+  - [C4](docs/topics/4-documentation/1-c4/index.md)
 - [Glossary](docs/topics/glossary/index.md)
 
 ---
