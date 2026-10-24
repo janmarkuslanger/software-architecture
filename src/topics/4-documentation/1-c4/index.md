@@ -30,10 +30,10 @@ Code consists of the building blocks of the programming language like classes, i
 
 ## System Context Diagram
 
-A system context diagram shows a software system in its nearest context in a high level view. 
+A system context diagram shows a software system with people and software systems interacting with it in a high-level view. 
 
 ### What
-A system context and its context [@brown2026]
+A single software system with people and software systems that interact with it [@brown2026]
 
 ### Audience 
 Technical and non technical people, everybody involved in the project
@@ -49,7 +49,7 @@ People who are using the system (prefered from a functional perspective) labeled
 
 #### Software systems
 
-The software system that is described and the software systems in its relationship. Every software syste, should be labeled with a name and a description.  
+The software system that is described and the software systems that interact with it. Every software system, should be labeled with a name and a description.  
 
 #### Relationships
 
@@ -71,7 +71,7 @@ C4Context
 
 ## Container Diagram
 
-A system context diagram shows the containers of a single software system. 
+A container diagram shows the containers of a single software system. 
 
 ### What
 
@@ -85,11 +85,11 @@ Software architects and engineers
 
 #### People
 
-People who are using the system (prefered from a functional perspective) labeled with a name and a description.
+People who are using a container of the software system (prefered from a functional perspective) labeled with a name and a description.
 
 #### Software Systems
 
-The software systems that interact with the described single software system.
+The software systems that interact with a container of the software system. 
 
 #### Containers
 
@@ -101,7 +101,8 @@ The diagram should contain a box around containers to distinguish what is inside
 
 #### Relationships
 
-The diagram should contain unidirectional arrows between containers. Each arrow should be labeled with a name and the technology. 
+The diagram should contain unidirectional arrows between containers, people and outside software systems. Each arrow should be labeled with a description and where applicable the technology. 
+
 ### Example
 
 ```mermaid

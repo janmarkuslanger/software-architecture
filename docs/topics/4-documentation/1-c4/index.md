@@ -103,7 +103,8 @@ The diagram should contain a box around containers to distinguish what is inside
 #### Relationships
 
 The diagram should contain unidirectional arrows between containers. Each arrow should be labeled with a name and the technology.
-\### Example
+
+### Example
 
 ``` mermaid
 C4Container
