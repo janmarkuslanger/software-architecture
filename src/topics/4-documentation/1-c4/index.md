@@ -162,3 +162,34 @@ A box that shows the boundary of the parent software system to make the hierarch
 
 The diagram should contain unidirectional arrows between the components, containers, people and outside software systems. Each arrow should be labeled with a description and where applicable the technology. Component to component relationships with method and function calls do not need technology description [@brown2026, chap. 5, "Relationships" section]. 
 
+
+### Example
+
+```mermaid
+C4Component
+    System_Ext(tracker, "Fitness Tracker Platform", "Provides activity data recorded by wearables")
+
+    System_Boundary(app, "Sports App") {
+        Container(mobile, "Mobile App", "Kotlin", "Lets athletes record workouts and view statistics")
+        ContainerDb(db, "Database", "PostgreSQL", "Stores workouts and user data")
+
+        Container_Boundary(api, "API Application") {
+            Component(workoutController, "Workout Controller", "Spring MVC REST Controller", "Provides endpoints for workouts and statistics")
+            Component(trackerClient, "Tracker Client", "Spring Bean", "Fetches activity data from the fitness tracker platform")
+            Component(workoutService, "Workout Service", "Spring Bean", "Handles workouts and calculates statistics")
+            Component(workoutRepository, "Workout Repository", "Spring Data JPA", "Reads and writes workouts")
+        }
+    }
+
+    Rel(mobile, workoutController, "Sends workouts to", "JSON/HTTPS")
+    Rel(workoutController, workoutService, "Uses")
+    Rel(workoutService, trackerClient, "Imports activity data using")
+    Rel(trackerClient, tracker, "Fetches activity data from", "JSON/HTTPS")
+    Rel(workoutService, workoutRepository, "Uses")
+    Rel(workoutRepository, db, "Reads from and writes to", "SQL")
+
+    UpdateRelStyle(trackerClient, tracker, $offsetX="-200", $offsetY="-140")
+    UpdateRelStyle(workoutRepository, db, $offsetX="0", $offsetY="-150")
+
+    UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
+```
