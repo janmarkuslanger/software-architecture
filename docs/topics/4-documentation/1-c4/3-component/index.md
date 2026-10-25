@@ -6,7 +6,7 @@ A component diagram shows the components of a single container in a software sys
 
 ## Audience
 
-Software architects and engineers (Brown, 2026, Chapter 5, "Audience" section)
+Software architects and engineers (Brown, 2026, Chapter 5, "Audience" section).
 
 ## Content
 
@@ -14,7 +14,7 @@ Software architects and engineers (Brown, 2026, Chapter 5, "Audience" section)
 
 The people that surround the container in the container diagram (Brown, 2026, Chapter 5, "People, software systems, and containers" section).
 
-### Software Systems
+### Software systems
 
 The software systems that surround the container in the container diagram (Brown, 2026, Chapter 5, "People, software systems, and containers" section).
 

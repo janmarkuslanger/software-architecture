@@ -6,19 +6,17 @@ A system context diagram shows a single software system with people and software
 
 ## Audience
 
-Technical and non-technical people, everybody involved in the project (Brown, 2026, Chapter 3)
+Technical and non-technical people, everybody involved in the project (Brown, 2026, Chapter 3).
 
 ## Content
 
-Software systems, people and relationships (Brown, 2026, Chapter 3, "Content" section)
-
 ### People
 
-People who are using the system (prefered from a functional perspective) labeled with a name and a description (Brown, 2026, Chapter 3, "People" section).
+People who are using the system (preferred from a functional perspective) labeled with a name and a description (Brown, 2026, Chapter 3, "People" section).
 
 ### Software systems
 
-The software system that is described and the software systems that interact with it. Every software system, should be labeled with a name and a description (Brown, 2026, Chapter 3, "Software systems" section).
+The software system that is described and the software systems that interact with it. Every software system should be labeled with a name and a description (Brown, 2026, Chapter 3, "Software systems" section).
 
 ### Relationships
 

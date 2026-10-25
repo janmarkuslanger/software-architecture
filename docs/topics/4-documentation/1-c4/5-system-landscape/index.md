@@ -6,7 +6,7 @@ A system landscape diagram shows how multiple software systems work together. Th
 
 ## Audience
 
-Technical and non-technical people, everybody involved in the project (Brown, 2026, Chapter 9, "Audience" section)
+Technical and non-technical people, everybody involved in the project (Brown, 2026, Chapter 9, "Audience" section).
 
 ## Content
 

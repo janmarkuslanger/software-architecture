@@ -6,23 +6,23 @@ A container diagram shows the containers of a single software system (Brown, 202
 
 ## Audience
 
-Software architects and engineers (Brown, 2026, Chapter 4, "Audience" section)
+Software architects and engineers (Brown, 2026, Chapter 4, "Audience" section).
 
 ## Content
 
 ### People
 
-People who are using a container of the software system (prefered from a functional perspective) labeled with a name and a description (Brown, 2026, Chapter 4, "People and software systems" section).
+People who are using a container of the software system (preferred from a functional perspective) labeled with a name and a description (Brown, 2026, Chapter 4, "People and software systems" section).
 
-### Software Systems
+### Software systems
 
 The software systems that interact with a container of the software system (Brown, 2026, Chapter 4, "People and software systems" section).
 
 ### Containers
 
-Applications and data stores that are needed in order to have a working system. Every container should have the following informations: Name, technology and description (Brown, 2026, Chapter 4, "Containers" section).
+Applications and data stores that are needed in order to have a working system. Every container should have the following information: Name, technology and description (Brown, 2026, Chapter 4, "Containers" section).
 
-### Software system boundaries
+### Software system boundary
 
 The diagram should contain a box around containers to distinguish what is inside of the system (Brown, 2026, Chapter 4, "Software system boundary" section).
 

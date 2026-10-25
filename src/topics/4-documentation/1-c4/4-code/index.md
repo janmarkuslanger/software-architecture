@@ -4,10 +4,10 @@
 A code diagram shows the internal code structure of a component [@brown2026, chap. 6].
 
 
-## Audience 
-Engineers [@brown2026, chap. 6, "Audience" section]
+## Audience
+Engineers [@brown2026, chap. 6, "Audience" section].
 
-## Content 
+## Content
 
 The code diagram should "show the various code-level building blocks supported by the programming language being used" [@brown2026, chap. 6, "Content" section].
 

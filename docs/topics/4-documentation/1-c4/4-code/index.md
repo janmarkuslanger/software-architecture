@@ -6,7 +6,7 @@ A code diagram shows the internal code structure of a component (Brown, 2026, Ch
 
 ## Audience
 
-Engineers (Brown, 2026, Chapter 6, "Audience" section)
+Engineers (Brown, 2026, Chapter 6, "Audience" section).
 
 ## Content
 

@@ -6,7 +6,7 @@ A deployment diagram is a "way to diagram the deployment topology" (Brown, 2026,
 
 ## Audience
 
-Engineers and software architects (Brown, 2026, Chapter 8, "Audience" section).
+Software architects and engineers (Brown, 2026, Chapter 8, "Audience" section).
 
 ## Content
 
@@ -37,6 +37,8 @@ C4Deployment
     }
 
     Deployment_Node(aws, "Amazon Web Services", "eu-central-1") {
+        Container(lb, "Load Balancer", "AWS Application Load Balancer", "Infrastructure node that distributes requests")
+
         Deployment_Node(ecs, "ECS Cluster", "AWS Fargate") {
             Container(api, "API Application", "Spring Boot", "Provides workout and statistics functionality")
         }
@@ -48,12 +50,17 @@ C4Deployment
 
     System_Ext(tracker, "Fitness Tracker Platform", "Provides activity data recorded by wearables")
 
-    Rel(mobile, api, "Sends workouts to", "JSON/HTTPS")
+    Rel(mobile, lb, "Sends workouts to", "JSON/HTTPS")
+    Rel(lb, api, "Forwards requests to", "JSON/HTTPS")
     Rel(api, db, "Reads from and writes to", "SQL")
     Rel(api, tracker, "Imports activity data from", "JSON/HTTPS")
 
-    UpdateRelStyle(mobile, api, $offsetX="-60", $offsetY="-30")
+    UpdateRelStyle(mobile, lb, $offsetX="-50", $offsetY="-35")
+    UpdateRelStyle(lb, api, $offsetX="10", $offsetY="-60")
+    UpdateRelStyle(api, tracker, $offsetX="-180", $offsetY="-235")
     UpdateRelStyle(api, db, $offsetX="-60", $offsetY="-30")
+
+    UpdateElementStyle(lb, $bgColor="#ffffff", $fontColor="#333333", $borderColor="#888888")
 
     UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="2")
 ```

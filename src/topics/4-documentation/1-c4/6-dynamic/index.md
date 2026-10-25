@@ -1,14 +1,14 @@
 # Dynamic Diagram
 
 ## What
-A dynamic diagram shows software processes during runtime  [@brown2026, chap. 7].
+A dynamic diagram shows software processes during runtime [@brown2026, chap. 7].
 
-## Content 
-There is no specific content given but UML sequence diagram or UML collaboration diagram can be used here [@brown2026, chap. 7, "Content" section]. 
+## Audience
 
-## Audience 
+The audience depends on the abstraction level. The audience will be the same as the diagram abstraction level [@brown2026, chap. 7, "Audience" section].
 
-The audience depends on the abstraction level. The audience will be the same as the diagram abstraction level [@brown2026, chap. 7, "Audience" section]. 
+## Content
+A dynamic diagram has no fixed set of elements. It can be drawn as a UML sequence diagram or a UML collaboration diagram [@brown2026, chap. 7, "Content" section].
 
 ## Example
 
