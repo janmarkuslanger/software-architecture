@@ -2,15 +2,15 @@
 
 ## What
 
-A system landscape diagram shows how multiple software systems work together. This is one level above the system context diagram(Brown, 2026, Chapter 9).
+A system landscape diagram shows how multiple software systems work together. This is one level above the system context diagram (Brown, 2026, Chapter 9).
 
 ## Audience
 
-Technical and non technical people, everybody involved in the project (Brown, 2026, Chapter 9, "Audience" section)
+Technical and non-technical people, everybody involved in the project (Brown, 2026, Chapter 9, "Audience" section)
 
 ## Content
 
-The diagram should show the software systems and people who use it (Brown, 2026, Chapter 9, "Content" section).
+The diagram should show the software systems and the people who use them (Brown, 2026, Chapter 9, "Content" section).
 
 ## Example
 

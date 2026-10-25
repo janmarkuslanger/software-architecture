@@ -6,7 +6,7 @@ A system context diagram shows a single software system with people and software
 
 ## Audience
 
-Technical and non technical people, everybody involved in the project (Brown, 2026, Chapter 3)
+Technical and non-technical people, everybody involved in the project (Brown, 2026, Chapter 3)
 
 ## Content
 

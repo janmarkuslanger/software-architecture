@@ -4,7 +4,7 @@
 A system context diagram shows a single software system with people and software systems interacting with it in a high-level view [@brown2026, chap. 3].
 
 ## Audience 
-Technical and non technical people, everybody involved in the project [@brown2026, chap. 3]
+Technical and non-technical people, everybody involved in the project [@brown2026, chap. 3]
 
 ## Content 
 

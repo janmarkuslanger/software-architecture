@@ -36,6 +36,7 @@ Code consists of the building blocks of the programming language like classes, i
 ## Supporting diagrams
 
 - [System Landscape Diagram](5-system-landscape/index.md)
+- [Dynamic Diagram](6-dynamic/index.md)
 
 ---
 
