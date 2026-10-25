@@ -19,6 +19,7 @@ This project has a focus on evidence. Therefore every statement must have a cita
     - [Code Diagram](docs/topics/4-documentation/1-c4/4-code/index.md)
     - [System Landscape Diagram](docs/topics/4-documentation/1-c4/5-system-landscape/index.md)
     - [Dynamic Diagram](docs/topics/4-documentation/1-c4/6-dynamic/index.md)
+    - [Deployment Diagram](docs/topics/4-documentation/1-c4/7-deployment/index.md)
 - [Glossary](docs/topics/glossary/index.md)
 
 ---
