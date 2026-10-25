@@ -31,3 +31,4 @@ Code consists of the building blocks of the programming language like classes, i
 - [System Context Diagram](1-system-context/index.md)
 - [Container Diagram](2-container/index.md)
 - [Component Diagram](3-component/index.md)
+- [Code Diagram](4-code/index.md)
