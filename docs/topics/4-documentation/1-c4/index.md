@@ -26,12 +26,16 @@ A component groups related functionality inside a container with well-defined in
 
 Code consists of the building blocks of the programming language like classes, interfaces or functions (Brown, 2026, Chapter 2, "Code" section).
 
-## Diagrams
+## Core diagrams
 
 - [System Context Diagram](1-system-context/index.md)
 - [Container Diagram](2-container/index.md)
 - [Component Diagram](3-component/index.md)
 - [Code Diagram](4-code/index.md)
+
+## Supporting diagrams
+
+- [System Landscape Diagram](5-system-landscape/index.md)
 
 ---
 
