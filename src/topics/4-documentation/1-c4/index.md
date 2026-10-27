@@ -55,3 +55,11 @@ To achieve these characteristics, the C4 model gives the following best practise
 - Relationships should be unidirectional, pointing from the initiating to the receiving element (e.g. Frontend makes API requests to Backend, the response is implied). Two arrows are only used if the relationships differ in intent, technology or synchronicity (e.g. Service A requests data from Service B, Service B publishes events to Service A). Labels should be specific (avoid words like "uses") and read like a sentence. Line styles, colors and arrowheads are optional [@brown2026, chap. 10, "Relationships" section].
 
 - A diagram key should be added on or near the diagram to explain the notation used to differentiate elements and relationships (e.g. shapes, colors, icons, line styles) [@brown2026, chap. 10, "Diagram Key" section].
+
+## Layers and groups
+
+To visualize groups or layers it is possible to draw a box around those layers and groups. These are not additional abstractions [@brown2026, chap. 11, "Abstraction Versus Organization" section].
+
+## Classifying elements
+
+For each element it must be decided which of the four abstractions is the best fit. For example, a microservice is a group of containers, if it is part of a software system owned by one team. Or a microservice is a software system, if it is owned by a separate team [@brown2026, chap. 11, "Abstraction Versus Organization" and "Microservices" sections].
