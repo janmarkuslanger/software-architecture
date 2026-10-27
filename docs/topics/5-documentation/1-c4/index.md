@@ -1,0 +1,75 @@
+# C4
+
+The C4 model consists of:
+
+- Four hierarchical abstractions: software systems, containers, components and code (Brown, 2026, Chapter 2)
+- Four hierarchical diagrams: system context, containers, components and code (Brown, 2026, Chapter 2)
+- Three supporting diagrams: system landscape, dynamic and deployment (Brown, 2026, Chapter 2, "Supporting Diagrams" section)
+
+C4 is notation agnostic (Brown, 2026, Chapter 2, "Notation" section) and tool agnostic (Brown, n.d.).
+
+## Abstractions
+
+### Software systems
+
+A software system is something that delivers value to its users and is mostly developed by one team (Brown, 2026, Chapter 2, "Software System" section).
+
+### Containers
+
+A container is a runnable unit. It is either an application or a data store (Brown, 2026, Chapter 2, "Container" section).
+
+### Components
+
+A component groups related functionality inside a container with well-defined interfaces (Brown, 2026, Chapter 2, "Component" section).
+
+### Code
+
+Code consists of the building blocks of the programming language like classes, interfaces or functions (Brown, 2026, Chapter 2, "Code" section).
+
+## Core diagrams
+
+- [System Context Diagram](1-system-context/index.md)
+- [Container Diagram](2-container/index.md)
+- [Component Diagram](3-component/index.md)
+- [Code Diagram](4-code/index.md)
+
+## Supporting diagrams
+
+- [System Landscape Diagram](5-system-landscape/index.md)
+- [Dynamic Diagram](6-dynamic/index.md)
+- [Deployment Diagram](7-deployment/index.md)
+
+## Notation
+
+The C4 model is "notation independent" (Brown, 2026, Chapter 10). This means it is possible to choose existing notations like UML or create new ones (Brown, 2026, Chapter 10). The C4 model defines best practises for a good notation: notations make diagrams accessible and understandable, notation should be explained via a legend, and the notation is consistent in a diagram set (Brown, 2026, Chapter 10, "What Makes a Good Notation?" section).
+
+To achieve these characteristics, the C4 model gives the following best practises (Brown, 2026, Chapter 10):
+
+- Diagrams should have titles with the diagram type (e.g. Container View) and the scope (e.g. Backend Tracking Service) (Brown, 2026, Chapter 10, "Diagram Titles" section).
+
+- "Incomprehensible acronyms, abbreviations, and code names can break an otherwise perfect diagram" (Brown, 2026, Chapter 10, "Acronyms, Abbreviations, and Code Names" section). Therefore they should be avoided, except for technical terms that are common in the current context (e.g. HTTP). If they are needed, they should be explained in a glossary or in the diagram key (Brown, 2026, Chapter 10, "Acronyms, Abbreviations, and Code Names" section).
+
+- There are no static layout rules, but the orientation should be consistent across the C4 levels, e.g. people always at the bottom (Brown, 2026, Chapter 10, "Layout" section).
+
+- Elements should contain information about their name (e.g. Backend Service), type (e.g. Container), technology for containers and components (e.g. Java) and a short description (e.g. handles tracking data). Shapes, colors and version numbers are optional and can be added to provide more information (Brown, 2026, Chapter 10, "Elements" section).
+
+- Relationships should be unidirectional, pointing from the initiating to the receiving element (e.g. Frontend makes API requests to Backend, the response is implied). Two arrows are only used if the relationships differ in intent, technology or synchronicity (e.g. Service A requests data from Service B, Service B publishes events to Service A). Labels should be specific (avoid words like "uses") and read like a sentence. Line styles, colors and arrowheads are optional (Brown, 2026, Chapter 10, "Relationships" section).
+
+- A diagram key should be added on or near the diagram to explain the notation used to differentiate elements and relationships (e.g. shapes, colors, icons, line styles) (Brown, 2026, Chapter 10, "Diagram Key" section).
+
+## Layers and groups
+
+To visualize groups or layers it is possible to draw a box around those layers and groups. These are not additional abstractions (Brown, 2026, Chapter 11, "Abstraction Versus Organization" section).
+
+## Classifying elements
+
+For each element it must be decided which of the four abstractions is the best fit. For example, a microservice is a group of containers, if it is part of a software system owned by one team. Or a microservice is a software system, if it is owned by a separate team (Brown, 2026, Chapter 11, "Abstraction Versus Organization" and "Microservices" sections).
+
+---
+
+## Sources
+
+Brown, S. (n.d.). *The C4 model*. C4 model. Retrieved October 24, 2026, from <https://web.archive.org/web/20261024081343/https://c4model.com/>
+
+Brown, S. (2026). *The C4 model: Visualizing software architecture*. O’Reilly Media.
+
