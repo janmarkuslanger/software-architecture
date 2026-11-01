@@ -9,6 +9,8 @@ This project has a focus on evidence. Therefore every statement must have a cita
 
 - [What is software architecture?](docs/topics/1-what-is-software-architecture/index.md)
 - [What drives software architecture?](docs/topics/2-what-drives-software-architecture/index.md)
+- [Architecture patterns](docs/topics/3- architecture-patterns/index.md)
+  - [Layered architecture](docs/topics/3- architecture-patterns/layered/index.md)
 - [Data](docs/topics/4-data/index.md)
   - [Data Modeling](docs/topics/4-data/1-data-modeling/index.md)
   - [Data Evolution](docs/topics/4-data/2-data-evolution/index.md)
